@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Urban Brew Café</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="logo">☕ Urban Brew</div>
+
+        <div class="menu-toggle" id="menuToggle">
+            ☰
+        </div>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Freshly Brewed Happiness</h1>
+            <p>Premium coffee crafted with passion.</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section id="menu" class="menu-section">
+        <h2>Our Special Menu</h2>
+
+        <div class="menu-container">
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Strong & bold Italian coffee.</p>
+                <span>₹120</span>
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="Latte">
+                <h3>Caffe Latte</h3>
+                <p>Smooth espresso with milk.</p>
+                <span>₹180</span>
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Rich foam & creamy taste.</p>
+                <span>₹160</span>
+                <button class="order-btn">Order Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24" alt="Cafe Interior">
+            <div>
+                <h2>About Us</h2>
+                <p>
+                    Urban Brew Café is dedicated to delivering high-quality 
+                    handcrafted coffee in a warm and welcoming atmosphere.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p>Email: urbanbrew@gmail.com</p>
+        <p>Phone: +91 9876543210</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Urban Brew Café | All Rights Reserved</p>
+    </footer>
+
+    <!-- JS LINK (VERY IMPORTANT) -->
+    <script src="index.js"></script>
+
+</body>
+</html>
